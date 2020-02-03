@@ -266,6 +266,9 @@ DEVICE_PACKAGE_OVERLAYS += vendor/havoc/overlay/common
 # Enable ccache
 USE_CCACHE := true
 
+PRODUCT_PACKAGES += \
+    BrightnessSliderOverlay
+
 # Allows registering device to Google easier for gapps
 # Integrates package for easier Google Pay fixing
 PRODUCT_PACKAGES += \
